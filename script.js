@@ -6,6 +6,7 @@ const hat = document.getElementById('hat');
 const door = document.getElementById('door');
 const diatomGuyScene2 = document.getElementById('diatom-guy-scene2');
 const car = document.getElementById('car');
+const happyEmoji = document.getElementById('happy-emoji');
 
 // ---- Scene 1: Hat click ----
 hat.addEventListener('click', () => {
@@ -107,5 +108,10 @@ car.addEventListener('click', () => {
   setTimeout(() => {
     car.classList.remove('shake');
     car.classList.add('drive-off');
+
+    // Show happy emoji after drive-off animation finishes (2s)
+    setTimeout(() => {
+      happyEmoji.style.display = 'block';
+    }, 2000);
   }, 1000);
 });

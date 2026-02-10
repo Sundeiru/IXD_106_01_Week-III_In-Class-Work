@@ -125,3 +125,14 @@ body {
 .drive-off {
   animation: driveOff 2s ease-in forwards;
 }
+
+/* Happy emoji */
+#happy-emoji {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30%;
+  z-index: 10;
+  display: none;
+}
