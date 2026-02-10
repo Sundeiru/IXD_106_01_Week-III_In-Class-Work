@@ -1,0 +1,23 @@
+Scene1:
+	- the image assets/inside-scene2 is displayed as the background
+	- the image assets/diatom-guy is displayed to the left of the screen
+	- the image assets/hat is displayed to the left side of the screen
+		- this image is bobbing up and down slightly
+	- when you click on the hat:
+ 		- assets/diatom-guy is replaced with assets/diatom-guy-with-hat
+		- the hat disappears
+		- assets/door appears to the right of the screen
+		- assets/diatom-guy-with-hat starts bobbing up and down slightly
+	- when you drag assets/diatom-guy-with-hat to the door Scene2 starts
+
+Scene2:
+	- the image assets/inside-scene2 disappears
+	- assets/house appears to the left of the screen
+	- assets/diatom-guy-with-hat appears in front of the house
+	- assets/car.png appears at the bottom of the screen
+	- when you click on the assets/car.png:
+		- assets/diatom-guy-with-hat disappears
+		- the image assets/car.png is replaced with the image assets/car-with-driver.png
+		- the car begins to shake slightly
+			- after a second the car slides off the screen to the
+	
